@@ -1,0 +1,88 @@
+body{
+    background-color:#f5f6fa;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-weight:bold;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.table{
+    margin-top:20px;
+}
+
+.table th{
+    background-color:#343a40;
+    color:white;
+    text-align:center;
+}
+
+.table td{
+    text-align:center;
+    vertical-align:middle;
+}
+
+img{
+    border-radius:8px;
+}
+
+.btn{
+    border-radius:8px;
+}
+
+.btn-primary{
+    background:#007bff;
+}
+
+.btn-warning{
+    color:white;
+}
+
+.btn-danger{
+    background:#dc3545;
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+}
+
+input{
+    border-radius:8px !important;
+}
+
+label{
+    font-weight:bold;
+}
+
+.product-card{
+border:none;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.product-card:hover{
+transform:translateY(-5px);
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top{
+height:220px;
+object-fit:cover;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+}
+
+.price{
+color:#e74c3c;
+font-size:18px;
+font-weight:bold;
+}
